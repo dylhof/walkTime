@@ -1,0 +1,43 @@
+body {
+  background-color: #cff1fc;
+  color: #61686b;
+  font-family:'Josefin Sans', sans-serif;
+}
+
+header {
+  background-color: #284754;
+  height: 100px;
+  color: #FFF;
+  display: flex;
+}
+
+section {
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  height: 30px;
+  width: 200px;
+  margin: 20px 0px;
+  background-color: #284754;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+.direction {
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.direction{
+  margin-top: 10px;
+}
+
