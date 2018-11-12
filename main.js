@@ -1,5 +1,5 @@
 const Button = document.getElementById('direction-btn');
-const directionSpan = document.querySelector('.direction')
+const directionP = document.querySelector('.direction')
 
 Button.addEventListener('click', generateDirection);
 
@@ -7,13 +7,12 @@ function generateDirection() {
   let num = genRanNum();
   console.log(num);
   if (num === 0) {
-      directionSpan.innerText = 'Straight';
+      directionP.innerText = 'Straight!';
   } else if (num === 1) {
-      directionSpan.innerText = 'Right';
+      directionP.innerText = 'Right!';
   } else {
-      directionSpan.innerText = 'Left';
+      directionP.innerText = 'Left!';
   }
-
 }
 
 function genRanNum() {
